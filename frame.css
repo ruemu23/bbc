@@ -1,0 +1,2786 @@
+ /*###Desktops, big landscape tablets and laptops(Large, Extra large)####*/
+ @media screen and (min-width: 1024px){
+
+    *{
+    
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.ham{
+    display: none;
+}
+.cobham{
+    display: block;
+}
+header{
+    height: 60px;
+   border: 1px solid red;
+    padding: 10px 90px 10px 90px;
+    background-color: #0d0d0d;
+    
+}
+.cee{
+    display: none
+}
+nav{
+    height: 40px;
+  
+   border: 1px solid blue; 
+    display: flex;
+    justify-content: space-between;  
+    gap: 10px;
+}
+.nav1{
+   border: 1px solid red;  
+    height:40px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.navo1{
+   border: 1px solid green;  
+    height:40px;
+    width: 45%;
+    color: white;
+    display: flex;
+  
+    align-items: center;
+    text-decoration: none;
+    gap: 5px;
+}
+.navo1 > h1 {
+    border: 0px solid red;
+    padding: 2px 8px;
+    background-color: white;
+    color: black
+}
+.navo2{
+   border: 1px solid green;  
+    height:40px;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 10px;
+    font-size:24px;
+ 
+  
+}
+.nav2{
+   border: 1px solid red;  
+    height: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.cavo1{
+   border: 1px solid green;  
+    height:40px;
+    width: 75%;
+    display: flex;
+}
+.cavo1 > a {
+   border: 1px solid blue;
+    width: 11.11%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.cavo2{
+   border: 1px solid green;  
+    height:40px;
+    width: 25%;
+    display: flex;
+   
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(83, 79, 79, 0.454);
+}
+.nav3{
+    display: none;
+}
+main{
+    height: auto;
+   border: 1px solid blue;
+    padding: 10px 90px 10px 90px;
+}
+.step1{
+    height: 60px;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.step1k{
+    height: 60px;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.spacer{
+    border-left: 3px solid red;
+    padding-left: 10px;
+}
+.spacerx{
+    border-left: 3px solid yellow;
+    padding-left: 10px;
+}
+.booker{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.whiter{
+   color: #a6a6a6;
+   font-size: 130%;
+}
+.bolde{
+    font-weight: bolder;
+    color: white;
+}
+.step1x{
+    height: 20%;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.open1{
+font-size: 26px;
+}
+.open2{
+    font-size: 16px; 
+}
+.open3{
+    font-size: 16px; 
+}
+.step1xx{
+    height: 5%;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    
+}
+.step2{
+    height: 400px;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+.runo1{
+    position: relative;
+   border: 1px solid black; 
+    width: 50%; 
+  
+  
+    background-size: cover;
+}
+.cap1{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    color: white;
+    font-weight: bold;
+}
+.cap2{
+    position: absolute;
+    left: 5%;
+    top: 85%;
+    color: white;
+    font-weight: bold;
+}
+.runo2{
+   border: 1px solid black; 
+    width: 25%; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.runo2 > div {
+    height: 50%;
+   border: 1px solid black; 
+}
+.caro1{
+    position: relative;
+   
+  
+    background-size: cover;  
+}
+.ap1{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+.lryo{
+    color: white;
+    font-weight: bold;
+}
+.ap2{
+    position: absolute;
+    left: 5%;
+    top: 70%;
+}
+.lryo2{
+    color: white;
+     border-left: 2px solid red;
+}
+.jew1{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.caro2{
+    position: relative;
+    
+  
+    background-size: cover;  
+}
+
+.caro3{
+    position: relative;
+  
+  
+    background-size: cover;  
+}
+.caro4{
+    position: relative;
+  
+  
+    background-size: cover;  
+}
+
+.runo3{
+   border: 1px solid black; 
+    width: 25%; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.runo3 > div {
+    height: 50%;
+   border: 1px solid black; 
+}
+.step3{
+    height: 400px;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+.step3 > div {
+    width: 33.33%;
+   border: 1px solid black; 
+}
+.mogo{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+    gap: 10px;
+}
+.mogo1{
+    height: 50%;
+   border: 1px solid black; 
+   
+    background-size: cover;  
+}
+
+.mogo2{
+    position: relative;
+    height: 50%;
+   border: 1px solid black; 
+   
+   
+}
+
+.mon3{
+    height: 15%;  
+   border: 1px solid red;
+}
+.coune{
+    position: absolute;
+    left: 0%;
+    top: 75%;
+    }
+.coun{
+position: absolute;
+left: 6%;
+top: 75%;
+}
+.couneditir{
+    position: absolute;
+    left: 1.5%;
+    top: 60%;
+    }
+.mogo3{
+    height: 50%;
+   border: 1px solid black; 
+    
+    background-size: cover;  
+}
+.mogo4{
+    height: 50%;
+   border: 1px solid black; 
+  
+    background-size: cover;  
+}
+.mogo5{
+    height: 50%;
+   border: 1px solid black; 
+   
+    background-size: cover;  
+}
+.mogo6{
+    height: 50%;
+   border: 1px solid black; 
+  
+    background-size: cover;  
+}
+.mogo7{
+    height: 50%;
+   border: 1px solid black; 
+  
+    background-size: cover;  
+}
+.step4{
+    height: 400px;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+.step4 > div {
+    width: 33.33%;
+   border: 1px solid black; 
+}
+
+.step6{
+    height: 560px;
+    background-color: blue;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    padding: 70px 90px 80px 90px;
+   
+  background-size: cover;
+  display : flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.step60{
+    height: 20%;
+   border: 1px solid black; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shock{
+   border: 1px solid black;  
+    height: 75%;
+    width: 50%;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.shock1{
+   border: 1px solid red;  
+    height: 25%;
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.step601{
+    display: flex;
+   align-items: center;
+   justify-content: end;
+   border: 1px solid yellow;  
+    width: 50%;
+}
+.sabi{
+   border: 1px solid white;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 25px;
+    text-decoration-line: none;
+    color: white;
+}
+.step61{
+    height: 80%;
+   border: 1px solid black; 
+    display: flex;
+    gap: 10px;
+}
+
+.step61 > div {
+    width: 33.33%;
+   border: 1px solid black; 
+}
+.ufu{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+
+    
+}
+.shot{
+    color: white;
+    font-size: 30px;
+    
+   border: 1px solid blue;
+   
+}
+.shot1{
+    color: white; 
+   border: 1px solid blue;
+}
+
+.shot2{
+    color: white; 
+}
+.ufu1{
+    height: 80%;
+   border: 1px solid black;  
+ 
+    background-size: cover;
+}
+.ufu2{
+    height: 20%;
+   border: 1px solid black;  
+    background-color: white;
+    color:black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.ufu3{
+    height: 80%;
+   border: 1px solid black;  
+   
+    background-size: cover;
+}
+.ufu4{
+    height: 80%;
+   border: 1px solid black; 
+ 
+    background-size: cover; 
+}
+.step7{
+    height: 400px;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    display: flex;
+    gap : 10px;
+}
+.step7 > div{
+   border: 1px solid black; 
+    width: 25%; 
+}
+.dima{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+}
+.dima1{
+    height: 40%;
+   border: 1px solid black; 
+ 
+    background-size: cover; 
+}
+.dima2{
+    position: relative;
+    height: 60%;
+   border: 1px solid black; 
+}
+.dimau{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+}
+.dima3{
+    height: 40%;
+   border: 1px solid black; 
+
+    background-size: cover; 
+}
+.dima4{
+    position: relative;
+    height: 60%;
+   border: 1px solid black; 
+}
+.dimav{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+}
+.dima5{
+    height: 40%;
+   border: 1px solid black; 
+  
+    background-size: cover; 
+}
+.dima6{
+    position: relative;
+    height: 60%;
+   border: 1px solid black; 
+}
+.dimaw{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+}
+.dima7{
+    height: 40%;
+   border: 1px solid black; 
+  
+    background-size: cover; 
+}
+.dima8{
+    position: relative;
+    height: 60%;
+   border: 1px solid black; 
+}
+.skinner{
+    border-left: 3px solid red;
+    padding-left: 10px; 
+    font-weight: 900;
+}
+.step8{
+    height: 1500px;
+    background-color: #e6e6e6;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    padding: 10px 90px 10px 90px;
+    
+}
+.step81{
+    height: 90%;
+   border: 1px solid black; 
+    display: flex;
+    gap: 10px;
+}
+.editor1{
+   border: 1px solid black; 
+    width: 65%; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bank1{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+    height: 36%;  
+}
+.bank10{
+    height: 75%;
+   border: 1px solid black; 
+  
+    background-size: cover; 
+}
+.bank11{
+    position: relative;
+    height: 25%;
+   border: 1px solid black; 
+    padding: 0 10px; 
+}
+.bank2{
+   border: 1px solid black; 
+    height: 64%; 
+    display: flex; 
+    flex-wrap: wrap;
+   gap: 1.5%;
+   
+    box-sizing: border-box;
+}
+.bank2 > div {
+    width: 32.33%;
+   border: 1px solid red;
+}
+.clark1, .clark2, .clark3{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid red;
+    gap: 10px;
+    
+}
+.fonta{
+    font-size: 21px;
+}
+.shared1{
+   
+    height: 45%;
+   border: 1px solid red;
+ 
+    background-size: cover; 
+}
+.shared2{
+    position: relative;
+    height: 55%;
+   border: 1px solid red;
+    padding: 0px 10px;
+   
+}
+.shared3{
+    height: 45%;
+   border: 1px solid red;
+  
+    background-size: cover; 
+   
+}
+.shared4{
+    height: 45%;
+   border: 1px solid red;
+ 
+    background-size: cover; 
+   
+}
+.shared5{
+    height: 45%;
+   border: 1px solid red;
+ 
+    background-size: cover; 
+    
+}
+.shared6{
+    height: 45%;
+   border: 1px solid red;
+
+    background-size: cover; 
+}
+.shared7{
+    height: 45%;
+   border: 1px solid red;
+  
+    background-size: cover; 
+}
+.editor2{
+   border: 1px solid black; 
+    width: 35%; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.topper{
+    display: flex;
+    align-items: center;
+    height: 3%;
+   border: 1px solid black; 
+    background-color: rgba(235, 29, 29, 0.802);
+}
+.biz{
+    color: white;
+    padding-left: 10px;
+}
+.restme{
+    height: 8%;
+   border: 1px solid black; 
+    display: flex;
+    gap: 10px;
+}
+.best1{
+    width: 30%;
+   border: 1px solid black; 
+  
+}
+.best2{
+    width: 70%;
+   border: 1px solid black; 
+    display: flex;
+  align-items: center;
+  font-size: 115%;
+  color: white;
+ 
+}
+.butter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.alux{
+    text-decoration: none;
+   border: 1px solid red;
+    font-size: 150%;
+    font-style: italic;
+    padding: 5%;
+    width: 38%;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    background-color: rgba(235, 29, 29, 0.802);
+}
+.colo{
+    background-color: rgba(9, 9, 9, 0.895);
+}
+.colo1{
+background-color: black;
+}
+.step9{
+    height: 500px;
+    background-color: blue;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    padding: 70px 90px 80px 90px;
+  
+    background-size: cover;
+   
+    display : flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.step60{
+    height: 20%;
+   border: 1px solid black; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shocke{
+    border: 3px solid green;  
+   
+    width: 50%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.shock1e{
+   border: 1px solid red;  
+  
+    width: 50%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.step91{
+    height: 80%;
+   border: 1px solid black; 
+    display: flex;
+    gap: 10px;
+}
+
+.step91 > div {
+    width: 33.33%;
+   border: 1px solid black; 
+}
+.future{
+    display: flex;
+    flex-direction: column;
+}
+.future1{
+    height: 80%;
+   border: 1px solid black;
+  
+    background-size: cover; 
+}
+.future2{
+    height: 20%;
+   border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-size: 110%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.future3{
+    height: 80%;
+   border: 1px solid black;
+
+    background-size: cover; 
+}
+.future4{
+    height: 80%;
+   border: 1px solid black;
+  
+    background-size: cover; 
+}
+
+.step15{
+    height: 550px;
+    background-color: #e6e6e6;
+   border: 1px solid red; 
+    margin-bottom: 10px;
+    padding: 10px 90px 10px 90px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.step1b{
+   border: 1px solid green; 
+    height:  10%;  
+    display: flex;
+    align-items: center;
+}
+.mycont{
+    display: flex;
+   border: 1px solid black; 
+    height: 80%;
+}
+.soto1{
+    width: 40%;
+   border: 1px solid green;
+    display: flex;
+}
+.soto1 > div {
+    width : 50%;
+   border: 1px solid red;
+}
+
+.soto2{
+    width: 60%;
+   border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+}
+.typer{
+    display: flex;
+    flex-wrap: wrap;
+   
+ height: 90%;
+}
+.typer > div {
+   
+   border: 1px solid black;
+    width: 25%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+footer{
+    height: 350px;
+   border: 1px solid yellow; 
+    padding: 0px 90px 0px 90px;
+  
+    background-color: #595959;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+
+.step1f{
+     height: 20%;
+   border: 1px solid black; 
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.step1fe{
+    height: 10%;
+  border: 1px solid black; 
+ 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+    height: 30%;
+  
+  }
+  .flex-container > div {
+    background-color: blue;
+   border: 1px solid black;
+}
+  
+  .flex-container .item1 {
+   width: 16.66%;
+   }
+
+  .flex-container .item2 {
+ width: 16.66%;
+    }
+
+  .flex-container .item3 {
+    width: 16.66%;
+ }
+
+  .flex-container .item4 {
+   width: 16.66%;
+   }
+
+  .flex-container .item5 {
+   width: 16.66%;
+   }
+  .flex-container .item6 {
+   width: 16.66%;
+   }
+  .flex-container .item7 {
+  width: 16.66%;
+   }
+  .flex-container .item8 {
+   width: 16.66%;
+   }
+  .flex-container .item9 {
+   width: 16.66%;
+   }
+  .flex-container .item10 {
+   width: 16.66%;
+   }
+  .flex-container .item11 {
+   width: 16.66%;
+   }
+
+
+   .flex-containers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: DodgerBlue;
+    height: 15%;
+
+    font-size: 13px;
+  }
+  .flex-containers > div {
+    background-color: blue;
+   border: 1px solid black;
+    font-size: 14px;
+}
+  
+  .flex-containers .items1 {
+   width: 9%;
+   }
+
+  .flex-containers .items2 {
+ width: 9%;
+    }
+
+  .flex-containers .items3 {
+    width: 9%;
+ }
+
+  .flex-containers .items4 {
+   width: 6%;
+   }
+
+  .flex-containers .items5 {
+   width: 10%;
+   }
+  .flex-containers .items6 {
+   width: 10%;
+   }
+  .flex-containers .items7 {
+  width: 10%;
+   }
+  .flex-containers .items8 {
+   width: 11%;
+   }
+  .flex-containers .items9 {
+   width: 10%;
+   }
+  .flex-containers .items10 {
+   width: 16%;
+   }
+  
+
+ }
+
+/*###Tablet(medium)###*/
+@media screen and (min-width : 768px) and (max-width : 1023px){
+   
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.ham{
+    display: none;
+}
+.cobham{
+    display: block;
+}
+header{
+    height: 70px;
+   border: 1px solid red;
+    padding: 10px 10px 10px 10px;
+    background-color: #0d0d0d;
+    
+}
+.cee{
+    display: none
+}
+
+
+
+
+
+nav{
+    height: 96%;
+  
+   border: 1px solid blue; 
+    display: flex;
+    justify-content: space-between;  
+    gap: 10px;
+}
+
+.nav1{
+   border: 1px solid red;  
+   
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+.usericon{
+    font-size:24px;
+    color:white;
+}
+.navo1{
+   border: 1px solid green;  
+    height:40px;
+    width: 55%;
+    color: white;
+    display: flex;
+    
+    align-items: center;
+    text-decoration: none;
+    gap: 5px;
+}
+.navo1 > h1 {
+    border: 0px solid red;
+    padding: 2px 8px;
+    background-color: white;
+    color: black
+}
+.navo2{
+   border: 1px solid green;  
+    height:40px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 20px;
+    font-size:24px;
+    color:white;
+  
+}
+
+
+
+
+.nav2{
+   border: 1px solid red;  
+    
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+.cavo1{
+   border: 1px solid green;  
+    height:40px;
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.cavo1 > a {
+   border: 1px solid blue;
+    width: 16.66%;
+    color: white;
+    text-decoration: none;
+}
+.vee{
+    display: none;
+}
+.cavo2{
+   border: 1px solid green;  
+    height:40px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+.nav3{
+    display: none;
+}
+main{
+    height: auto;
+   border: 1px solid blue;
+    padding: 10px 10px 10px 10px;
+}
+.step1{
+    height: 40px;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.step1k{
+    height: 40px;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.open1{
+    font-size: 36px;
+    }
+    .open2{
+        font-size: 21px; 
+    }
+    .open3{
+        font-size: 20px; 
+    }
+.whiter{
+    color: #a6a6a6;
+    font-size: 130%;
+ }
+
+
+.step1x{
+    height: 20%;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+   
+    
+}
+.step1xx{
+    height: 5%;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    
+}
+
+.step2{
+    height: 800px;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.runo1{
+    position: relative;
+   border: 1px solid black; 
+    width: 100%; 
+    height: 50%;
+
+    background-size: cover;
+}
+
+.cap1{
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    color: white;
+    font-weight: bold;
+
+}
+.cap2{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    color: white;
+    font-weight: bold;
+   
+}
+
+
+
+.runo2{
+   border: 1px solid black; 
+    width: 100%; 
+    height: 25%;
+    display: flex;
+   
+    gap: 10px;
+}
+.runo2 > div {
+    width: 50%;
+   border: 1px solid black; 
+}
+.caro1{
+    position: relative;
+
+    background-size: cover;  
+}
+.ap1{
+    position: absolute;
+    left: 5%;
+    top: 55%;
+}
+.lryo{
+    color: white;
+    font-weight: bold;
+}
+.ap2{
+    position: absolute;
+    left: 5%;
+    top: 80%;
+}
+.lryo2{
+    color: white;
+     border-left: 2px solid red;
+}
+.jew1{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.bolde{
+    font-weight: bolder;
+    color: white;
+}
+.caro2{
+    position: relative;
+ 
+    background-size: cover;  
+}
+
+.caro3{
+    position: relative;
+ 
+    background-size: cover;  
+}
+.caro4{
+    position: relative;
+ 
+    background-size: cover;  
+}
+
+.runo3{
+   border: 1px solid black; 
+    width: 100%; 
+    height: 25%;
+    display: flex;
+   
+    gap: 10px;
+}
+.runo3 > div {
+    width: 50%;
+   border: 1px solid black; 
+}
+
+
+
+.spacer{
+    border-left: 3px solid red;
+    padding-left: 10px;
+}
+.spacerx{
+    border-left: 3px solid yellow;
+    padding-left: 10px;
+}
+
+
+.step3{
+    height: 400px;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}.step3 > div {
+    width: 33.33%;
+   border: 1px solid black; 
+}
+.mogo{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+    gap: 10px;
+}
+.mogo1{
+    height: 50%;
+   border: 1px solid black; 
+ 
+    background-size: cover;  
+}
+
+.mogo2{
+    position: relative;
+    height: 50%;
+   border: 1px solid black; 
+   
+   
+}
+
+.mon3{
+    height: 15%;  
+   border: 1px solid red;
+}
+.coune{
+    position: absolute;
+    left: 0%;
+    top: 75%;
+    }
+.coun{
+position: absolute;
+left: 6%;
+top: 75%;
+}
+.couneditir{
+    position: absolute;
+    left: 1.5%;
+    top: 60%;
+    }
+.mogo3{
+    height: 50%;
+   border: 1px solid black; 
+
+    background-size: cover;  
+}
+.mogo4{
+    height: 50%;
+   border: 1px solid black; 
+
+    background-size: cover;  
+}
+.mogo5{
+    height: 50%;
+   border: 1px solid black; 
+
+    background-size: cover;  
+}
+.mogo6{
+    height: 50%;
+   border: 1px solid black; 
+ 
+    background-size: cover;  
+}
+.mogo7{
+    height: 50%;
+   border: 1px solid black; 
+  
+    background-size: cover;  
+}
+.step4{
+    height: 400px;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+.step4 > div {
+    width: 33.33%;
+   border: 1px solid black; 
+}
+
+.step6{
+    height: 300px;
+    background-color: blue;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+
+  background-size: cover;
+  display : flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.step60{
+    height: 20%;
+   border: 1px solid black; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shock{
+   border: 1px solid black;  
+    height: 75%;
+    width: 50%;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.shock1{
+   border: 1px solid red;  
+    height: 25%;
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.step601{
+    display: flex;
+   align-items: center;
+   justify-content: end;
+   border: 1px solid yellow;  
+    width: 50%;
+}
+.sabi{
+   border: 1px solid white;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 25px;
+    text-decoration-line: none;
+    color: white;
+}
+.step61{
+    height: 80%;
+   border: 1px solid black; 
+    display: flex;
+    gap: 10px;
+}
+
+.step61 > div {
+    width: 33.33%;
+   border: 1px solid black; 
+}
+.ufu{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+
+    
+}
+.shot{
+    color: white;
+    font-size: 30px;
+    
+   border: 1px solid blue;
+   
+}
+.shot1{
+    color: white; 
+   border: 1px solid blue;
+}
+
+.shot2{
+    color: white; 
+}
+.ufu1{
+    height: 60%;
+   border: 1px solid black;  
+   
+    background-size: cover;
+}
+.ufu2{
+    height: 40%;
+   border: 1px solid black;  
+    background-color: white;
+    color:black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.ufu3{
+    height: 60%;
+   border: 1px solid black;  
+  
+    background-size: cover;
+}
+.ufu4{
+    height: 60%;
+   border: 1px solid black; 
+  
+    background-size: cover; 
+}
+.step7{
+    height: 300px;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    display: flex;
+    gap : 10px;
+}
+.step7 > div{
+   border: 1px solid black; 
+    width: 33.33%; 
+}
+.dima{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+}
+.dima1{
+    height: 40%;
+   border: 1px solid black; 
+  
+    background-size: cover; 
+}
+.dima2{
+    position: relative;
+    height: 60%;
+   border: 1px solid black; 
+}
+.dimau{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+}
+.dima3{
+    height: 40%;
+   border: 1px solid black; 
+  
+    background-size: cover; 
+}
+.dima4{
+    position: relative;
+    height: 60%;
+   border: 1px solid black; 
+}
+.dimav{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+}
+.dima5{
+    height: 40%;
+   border: 1px solid black; 
+ 
+    background-size: cover; 
+}
+.dima6{
+    position: relative;
+    height: 60%;
+   border: 1px solid black; 
+}
+.dimaw{
+    display: none;
+   
+}
+.skinner{
+    border-left: 3px solid red;
+    padding-left: 10px; 
+    font-weight: 900;
+}
+.step8{
+    height: 1500px;
+    background-color: gray;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.step1xx{
+    height: 5%;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.step81{
+    height: 90%;
+   border: 1px solid black; 
+    display: flex;
+    gap: 10px;
+}
+.editor1{
+   border: 1px solid black; 
+    width: 65%; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bank1{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+    height: 36%;  
+}
+.bank10{
+    height: 65%;
+   border: 1px solid black; 
+  
+    background-size: cover; 
+}
+.bank11{
+    position: relative;
+    height: 35%;
+   border: 1px solid black; 
+    padding: 0 10px; 
+}
+.fonta{
+    font-size: 32px;
+}
+.fonta1{
+    font-size: 22px;
+}
+.fontaz{
+    font-size: 18px;
+}
+.fontazy{
+    font-size: 14px;
+}
+.couneditir{
+    position: absolute;
+    left: 1.5%;
+    top: 80%;
+   
+    }
+.bank2{
+   border: 1px solid black; 
+    height: 64%; 
+    display: flex; 
+    flex-wrap: wrap;
+    gap : 10px;
+    box-sizing: border-box;
+}
+.bank2 > div {
+    width: 48.5%;
+   border: 1px solid red;
+}
+.clark1, .clark2, .clark3{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid red;
+    gap: 10px;
+    
+}
+.shared1{
+    height: 45%;
+   border: 1px solid red;
+
+    background-size: cover; 
+}
+.shared2{
+    position: relative;
+    height: 55%;
+   border: 1px solid red;
+    padding: 0px 10px;
+}
+.shared3{
+    height: 45%;
+   border: 1px solid red;
+  
+    background-size: cover; 
+   
+}
+.shared4{
+    height: 45%;
+   border: 1px solid red;
+
+    background-size: cover; 
+   
+}
+.shared5{
+    height: 45%;
+   border: 1px solid red;
+
+    background-size: cover; 
+    
+}
+.shared6{
+    height: 45%;
+   border: 1px solid red;
+ 
+    background-size: cover; 
+}
+.shared7{
+    height: 45%;
+   border: 1px solid red;
+
+    background-size: cover; 
+}
+.editor2{
+   border: 1px solid black; 
+    width: 35%; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.topper{
+    display: flex;
+    align-items: center;
+    height: 5%;
+   border: 1px solid black; 
+    background-color: rgba(235, 29, 29, 0.802);
+}
+.biz{
+    color: white;
+    padding-left: 10px;
+}
+.colo{
+    background-color: rgba(9, 9, 9, 0.895);
+}
+.colo1{
+background-color: black;
+}
+.restme{
+    height: 15%;
+   border: 1px solid black; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.best1{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    width: 100%;
+    height: 50%;
+   border: 1px solid black; 
+}
+.best2{
+    width: 100%;
+    height: 50%;
+   border: 1px solid black; 
+    color: white;
+}
+.alux{
+    text-decoration: none;
+   border: 1px solid red;
+    font-size: 30px;
+    font-style: italic;
+    padding: 10px;
+    width: 20%;
+    height: 56px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    background-color: rgba(235, 29, 29, 0.802);
+}
+
+.step9{
+    height: 300px;
+    
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+ 
+    background-size: cover;
+   
+    display : flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.step60{
+    height: 20%;
+   border: 1px solid black; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shocke{
+    border: 3px solid green;  
+   
+    width: 50%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.shock1e{
+   border: 1px solid red;  
+  
+    width: 50%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.step91{
+    height: 80%;
+   border: 1px solid black; 
+    display: flex;
+    gap: 10px;
+}
+
+.step91 > div {
+    width: 33.33%;
+   border: 1px solid black; 
+}
+
+.future{
+    display: flex;
+    flex-direction: column;
+}
+.future1{
+    height: 60%;
+   border: 1px solid black;
+ 
+    background-size: cover; 
+}
+.future2{
+    height: 40%;
+   border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-size: 110%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.future3{
+    height: 60%;
+   border: 1px solid black;
+   
+    background-size: cover; 
+}
+.future4{
+    height: 60%;
+   border: 1px solid black;
+   
+    background-size: cover; 
+}
+.step15{
+    height: 700px;
+    background-color: gray;
+   border: 1px solid red; 
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.mycont{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+    height: 500px;
+}
+.soto1{
+    width: 100%;
+    height: 30%;
+   border: 1px solid green;
+    display: flex;
+}
+.soto1 > div {
+    width : 50%;
+   border: 1px solid red;
+}
+
+.soto2{
+    width: 100%;
+    height: 70%;
+   border: 1px solid green;
+}
+.typer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+    height: 400px; 
+}
+.typer > div {
+    background-color: blue;
+   border: 1px solid black;
+    width: 33.33%;
+}
+
+footer{
+    height: 400px;
+   border: 1px solid yellow; 
+    padding: 10px 10px 10px 10px;
+    background-color: #595959;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.step1f{
+    height: 20%;
+  border: 1px solid black; 
+ 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.step1fe{
+   height: 10%;
+ border: 1px solid black; 
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+    height: 30%;
+  
+  }
+  .flex-container > div {
+    background-color: blue;
+   border: 1px solid black;
+    width: 25%;
+}
+  
+ 
+
+
+   .flex-containers {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+    height: 15%;
+    margin-bottom: 10px;
+  }
+  .flex-containers > div {
+    background-color: blue;
+   border: 1px solid black;
+    width: 25%;
+}
+  
+  
+}
+
+/*### Smartphones (portrait and landscape)(small)### */
+@media screen and (min-width : 0px) and (max-width : 767px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .ham{
+        display: block;
+    }
+    .cobham{
+        display: none;
+    }
+    header{
+        height: 65px;
+       border: 1px solid red;
+        padding: 10px 8px 10px 8px;
+        background-color: #0d0d0d;
+        
+    }
+    
+    nav{
+        height: 96%;
+      
+       border: 1px solid blue; 
+        display: flex;
+        justify-content: space-between;  
+        gap: 5px;
+    }
+    
+    .nav1{
+       border: 1px solid red;  
+       
+        width: 70%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .usericon{
+        font-size:24px;
+        color:white;
+    }
+    .navo1{
+       border: 1px solid green;  
+        height:40px;
+        width: 60%;
+        color: white;
+        display: flex;
+        
+        align-items: center;
+        text-decoration: none;
+        gap: 8px;
+    }
+    .navo1 > h1 {
+        border: 0px solid red;
+        padding: 2px 8px;
+        background-color: white;
+        color: black
+    }
+    .navo2{
+       border: 1px solid green;  
+        height:40px;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        color: white;
+        padding-left: 0px;
+        font-size: 34px;
+        color:white;
+      
+    }
+    
+    
+    
+    
+    .nav2{
+       border: 1px solid red;  
+        
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .cavo1{
+       border: 1px solid green;  
+        height:40px;
+        width: 50%;
+        display: flex;
+      justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 27px;
+    }
+    .cavo1 > a {
+       border: 1px solid blue;
+       
+        color: white;
+        text-decoration: none;
+    }
+    .vee{
+        display: none;
+    }
+    .pee{
+        display: none; 
+    }
+    .cavo2{
+       border: 1px solid green;  
+        height:40px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 27px;
+    }
+    .nav3{
+        display: none;
+    }
+    
+    main{
+        height: auto;
+       border: 1px solid blue;
+        padding: 10px 8px 10px 8px;
+    }
+    .bee{
+        display: none;
+    }
+   
+    .step1{
+        height: 50px;
+       border: 1px solid black; 
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+ 
+    .step1k{
+        display: none;
+        
+    }
+
+    .step1x{
+        height: 60px;
+       border: 1px solid black; 
+        margin-bottom: 10px;
+        
+    }
+    .step1xx{
+        display: flex;
+        align-items: center;
+        height: 5%;
+       border: 1px solid black; 
+        margin-bottom: 10px;
+        
+    }
+    .skinner{
+        border-left: 3px solid red;
+        padding-left: 10px; 
+        font-weight: 900;
+    }
+    .step2{
+        height: 600px;
+       border: 1px solid black; 
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .runo1{
+        position: relative;
+       border: 1px solid black; 
+        width: 100%; 
+        height: 40%;
+    
+    background-size: cover;
+    }
+    .cap1{
+        position: absolute;
+        left: 5%;
+        top: 48%;
+        color: white;
+        font-weight: bold;
+    
+    }
+    .cap2{
+        position: absolute;
+        left: 5%;
+        top: 90%;
+        color: white;
+        font-weight: bold;
+       
+    }
+    .open1{
+        font-size: 22px;
+        }
+    .runo2{
+       border: 1px solid black; 
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 30%;
+    }
+    .runo2 > div {
+        height: 100%;
+       border: 1px solid black; 
+    }
+    .caro1{
+        position: relative;
+    }
+    .ap1{
+        position: absolute;
+        left: 0%;
+        top: 5%;
+    }
+    .lryo{
+        color: black;
+        font-weight: bold;
+    }
+    .ap2{
+        position: absolute;
+        left: 0%;
+        top: 70%;
+    }
+    .lryo2{
+        color: black;
+         border-left: 2px solid red;
+    }
+    .jew1{
+        color: black;
+        text-decoration: none;
+        padding-left: 10px;
+    }
+    .bolde{
+        font-weight: bolder;
+        color: white;
+    }
+    .caro2{
+        position: relative;
+  
+    }
+    
+    .caro3{
+        position: relative;
+        
+    }
+    .caro4{
+        position: relative;
+     
+    }
+    
+    .runo3{
+       border: 1px solid black; 
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 30%;
+    }
+    .runo3 > div {
+        height: 100%;
+       border: 1px solid black; 
+    }
+
+
+
+    .spacer{
+        border-left: 3px solid red;
+        padding-left: 10px;
+    }
+    .spacerx{
+        border-left: 3px solid yellow;
+        padding-left: 10px;
+    }
+.step3{
+    height: 300px;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.step3 > div {
+    width: 100%;
+   border: 1px solid black; 
+    height: 33.33%;
+}
+.mogo{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+    gap: 10px;
+}
+.mogo1{
+   display: none;
+}
+.mogo2{
+    position: relative;
+    height: 100%;
+   border: 1px solid black; 
+}
+.coune{
+    position: absolute;
+    left: 0%;
+    top: 75%;
+    }
+    .step4{
+        height: 300px;
+       border: 1px solid black; 
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .step4 > div {
+        width: 100%;
+       border: 1px solid black; 
+        height: 33.33%;
+    }
+    .step5{
+        height: 400px;
+       border: 1px solid black; 
+        margin-bottom: 10px;
+    }
+ 
+
+
+
+    .step6{
+        height: 800px;
+        background-color: blue;
+       border: 1px solid black; 
+        margin-bottom: 10px;
+        padding: 10px 10px 10px 10px;
+  
+      background-size: cover;
+      display : flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .step60{
+        height: 8%;
+       border: 1px solid black; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .shock{
+       border: 1px solid black;  
+        height: 75%;
+        width: 50%;
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        color: white;
+    }
+    .shock1{
+       border: 1px solid red;  
+        height: 25%;
+        width: 100%;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        color: white;
+    }
+
+    .step601{
+        display: flex;
+       align-items: center;
+       justify-content: end;
+       border: 1px solid yellow;  
+        width: 50%;
+    }
+    .sabi{
+       border: 1px solid white;
+        font-size: 16px;
+        padding: 5px 20px;
+        border-radius: 25px;
+        text-decoration-line: none;
+        color: white;
+    }
+    .step61{
+        height: 92%;
+       border: 1px solid black; 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .step61 > div {
+        width: 100%;
+        height: 33.33%;
+       border: 1px solid black; 
+    }
+    .ufu{
+        display: flex;
+        flex-direction: column;
+       border: 1px solid black; 
+    
+        
+    }
+    .shot{
+        color: white;
+        font-size: 30px;
+        
+       border: 1px solid blue;
+       
+    }
+    .shot1{
+        color: white; 
+       border: 1px solid blue;
+    }
+    
+    .shot2{
+        color: white; 
+    }
+    .ufu1{
+        height: 60%;
+       border: 1px solid black;  
+    
+        background-size: cover;
+    }
+    .ufu2{
+        height: 40%;
+       border: 1px solid black;  
+        background-color: white;
+        color:black;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    .ufu3{
+        height: 60%;
+       border: 1px solid black;  
+     
+        background-size: cover;
+    }
+    .ufu4{
+        height: 60%;
+       border: 1px solid black; 
+     
+        background-size: cover; 
+    }
+    
+  
+
+.step7{
+    height: 250px;
+   border: 1px solid black; 
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.step7 > div{
+   border: 1px solid black; 
+    width: 100%; 
+    height: 100%;
+
+}
+.dima{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+}
+.dimau, .dimav, .dimaw{
+    display: none;
+}
+.dima1{
+    height: 60%;
+   border: 1px solid black; 
+  
+    background-size: cover; 
+}
+.dima2{
+    position: relative;
+    height: 40%;
+   border: 1px solid black; 
+}
+.dima3{
+    display: none;
+}
+.dima4{
+    display: none;
+}
+.dima5{
+    display: none;
+}
+.dima6{
+    display: none;
+}
+.dima7{
+    display: none;
+}
+.dima8{
+    display: none;
+}
+    
+   
+    .step8{
+        height: 1500px;
+       border: 1px solid black; 
+        margin-bottom: 10px;
+        padding: 10px 8px 10px 8px;
+        
+    }
+    .step81{
+        height: 94%;
+       border: 1px solid black; 
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .editor1{
+       border: 1px solid black; 
+        width: 100%; 
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .bank1{
+       border: 1px solid black; 
+        height: 36%;  
+    }
+    .bank10{
+        height: 65%;
+       border: 1px solid black; 
+      
+        background-size: cover; 
+    }
+    .bank11{
+        position: relative;
+        height: 35%;
+       border: 1px solid black; 
+        padding: 0 10px; 
+    }
+    .bank2{
+       border: 1px solid black; 
+        height: 64%; 
+        display: flex; 
+        flex-direction: column;
+        gap : 10px;
+    }
+    .bank2 > div {
+        width: 100%;
+        height: 33.33%;
+       border: 1px solid red;
+    }
+    .clark1, .clark2, .clark3{
+        display: flex;
+        flex-direction: column;
+       border: 1px solid red;
+        gap: 10px;
+        
+    }
+    .fontaz{
+        font-size: 18px;
+    }
+    .fontazy{
+        font-size: 14px;
+    }
+    .shared1, .shared3, .shared4, .shared5, .shared6, .shared7{
+      display: none;
+    }
+    .shared2{
+        position: relative;
+        height: 100%;
+       border: 1px solid red;
+    }
+   
+    .coun{
+        position: absolute;
+        left: 0%;
+        top: 75%;
+        }
+
+
+    .editor2{
+       border: 1px solid black; 
+        width: 100%; 
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+    .topper{
+        display: flex;
+        align-items: center;
+        height: 10%;
+       border: 1px solid black; 
+        background-color: rgba(235, 29, 29, 0.802);
+    }
+    .biz{
+        color: white;
+        padding-left: 10px;
+    }
+    .restme{
+        height: 18%;
+       border: 1px solid black; 
+        display: flex;
+        gap: 10px;
+    }
+    .colo{
+        background-color: rgba(9, 9, 9, 0.895);
+    }
+    .colo1{
+    background-color: black;
+    }
+    .best1{
+        width: 30%;
+       border: 1px solid black; 
+      
+    }
+    .best2{
+        width: 70%;
+       border: 1px solid black; 
+        display: flex;
+      align-items: center;
+      font-size: 115%;
+      color: white;
+     
+    }
+    .butter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+    }
+    .alux{
+        text-decoration: none;
+       border: 1px solid red;
+        font-size: 150%;
+        font-style: italic;
+        padding: 5%;
+        width: 38%;
+        border-radius: 50%;
+        text-align: center;
+        color: white;
+        background-color: rgba(235, 29, 29, 0.802);
+    }
+    .step9{
+        height: 600px;
+     
+       border: 1px solid black; 
+        margin-bottom: 10px;
+        padding: 10px 8px 10px 8px;
+      
+        background-size: cover;
+        
+    }
+
+.step60{
+    height: 15%;
+   border: 1px solid black; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shocke{
+    border: 3px solid green;  
+   
+    width: 50%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.shock1e{
+   border: 1px solid red;  
+  
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.step601{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid yellow;  
+    width: 50%;
+}
+.step91{
+    height: 80%;
+   border: 1px solid black; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.step91 > div {
+    width: 100%;
+    height: 33.33%;
+   border: 1px solid black; 
+}
+.future{
+    display: flex;
+    flex-direction: column;
+}
+.future1{
+    height: 60%;
+   border: 1px solid black;
+  
+    background-size: cover; 
+}
+.future2{
+    height: 40%;
+   border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.future3{
+    height: 80%;
+   border: 1px solid black;
+   
+    background-size: cover; 
+}
+.future4{
+    height: 80%;
+   border: 1px solid black;
+ 
+    background-size: cover; 
+}  
+    
+.step15{
+    height: 700px;
+    background-color: gray;
+   border: 1px solid red; 
+    margin-bottom: 10px;
+    padding: 10px 8px 10px 8px;
+    
+}
+.step1b{
+   border: 1px solid green; 
+    height:  6%;  
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.mycont{
+    display: flex;
+    flex-direction: column;
+   border: 1px solid black; 
+    height: 94%;
+}
+.soto1{
+    width: 100%;
+    height: 20%;
+   border: 1px solid green;
+    display: flex;
+}
+.soto1 > div {
+    width : 50%;
+   border: 1px solid red;
+}
+
+.soto2{
+    width: 100%;
+    height: 80%;
+   border: 1px solid green;
+}
+.peru{
+    display: flex;
+    align-items: center;
+    height: 10%;
+}
+.typer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: DodgerBlue;
+   
+    height: 90%;
+}
+.typer > div {
+    background-color: blue;
+   border: 1px solid black;
+    width: 50%;
+}
+
+  
+
+    footer{
+        height: auto;
+       border: 1px solid yellow; 
+        padding: 10px 8px 10px 8px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: DodgerBlue;
+        height: 200px;
+        margin-bottom: 10px;
+      }
+      .flex-container > div {
+        background-color: blue;
+       border: 1px solid black;
+        width: 50%;
+    }
+      
+      
+    
+    
+       .flex-containers {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: DodgerBlue;
+        height: 100px;
+        margin-bottom: 30px;
+      }
+      .flex-containers > div {
+        background-color: blue;
+       border: 1px solid black;
+        width: 50%;
+    }
+      
+      
+}
